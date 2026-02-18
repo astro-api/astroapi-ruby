@@ -105,5 +105,3 @@ DEPENDENCIES
   webmock (~> 3.18)
   yard (~> 0.9)
 
-BUNDLED WITH
-   1.17.2
