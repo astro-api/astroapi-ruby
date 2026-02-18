@@ -1,0 +1,23 @@
+{
+  "sun": {
+    "name": "Sun",
+    "longitude": 20.5,
+    "sign": "Taurus",
+    "degrees_in_sign": 20.5,
+    "retrograde": false
+  },
+  "moon": {
+    "name": "Moon",
+    "longitude": 125.3,
+    "sign": "Leo",
+    "degrees_in_sign": 5.3,
+    "retrograde": false
+  },
+  "mercury": {
+    "name": "Mercury",
+    "longitude": 15.2,
+    "sign": "Taurus",
+    "degrees_in_sign": 15.2,
+    "retrograde": false
+  }
+}
