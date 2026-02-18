@@ -45,14 +45,8 @@ jobs:
       - name: Build gem
         run: gem build astroapi.gemspec
 
-      - name: Publish to RubyGems
-        run: |
-          mkdir -p ~/.gem
-          echo "---" > ~/.gem/credentials
-          echo ":rubygems_api_key: ${{ secrets.RUBYGEMS_API_KEY }}" >> ~/.gem/credentials
-          chmod 0600 ~/.gem/credentials
-          gem push astroapi-*.gem
-          rm -f ~/.gem/credentials
+      - name: Publish to RubyGems (Trusted Publishing)
+        uses: rubygems/release-gem@v1
 
       - name: Create GitHub Release
         env:

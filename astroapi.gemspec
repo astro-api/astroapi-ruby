@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
     'bug_tracker_uri' => 'https://github.com/astro-api/astroapi-ruby/issues',
     'changelog_uri' => 'https://github.com/astro-api/astroapi-ruby/blob/main/CHANGELOG.md',
     'documentation_uri' => 'https://www.rubydoc.info/gems/astroapi',
+    'homepage_uri' => spec.homepage,
     'source_code_uri' => 'https://github.com/astro-api/astroapi-ruby',
-    'homepage_uri' => 'https://github.com/astro-api/astroapi-ruby',
     'rubygems_mfa_required' => 'true'
   }
 
