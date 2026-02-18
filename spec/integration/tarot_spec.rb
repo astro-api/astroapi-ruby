@@ -121,7 +121,9 @@ RSpec.describe 'Tarot API' do
   describe '#calculate_elemental_dignities' do
     it 'returns elemental dignities' do
       stub_unless_live(:post, '/api/v3/tarot/analysis/dignities', body: { data: { dignities: [] } })
-      request = { cards: [{ id: 'major_00', position: 0 }, { id: 'major_01', position: 0 }, { id: 'major_02', position: 0 }] }
+      request = {
+        cards: [{ id: 'major_00', position: 0 }, { id: 'major_01', position: 0 }, { id: 'major_02', position: 0 }]
+      }
       result = client.tarot.calculate_elemental_dignities(request)
       expect(result).to be_a(Hash)
     end

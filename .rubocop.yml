@@ -65,6 +65,10 @@ RSpec/MessageSpies:
 RSpec/StubbedMock:
   Enabled: false
 
+RSpec/MultipleMemoizedHelpers:
+  Exclude:
+    - 'spec/support/**/*'
+
 RSpec/DescribeClass:
   Exclude:
     - 'spec/integration/**/*'
