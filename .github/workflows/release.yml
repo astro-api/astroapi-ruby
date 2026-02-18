@@ -42,9 +42,6 @@ jobs:
             exit 1
           fi
 
-      - name: Build gem
-        run: gem build astroapi.gemspec
-
       - name: Publish to RubyGems (Trusted Publishing)
         uses: rubygems/release-gem@v1
 
@@ -55,4 +52,4 @@ jobs:
           gh release create "$GITHUB_REF_NAME" \
             --title "$GITHUB_REF_NAME" \
             --generate-notes \
-            astroapi-*.gem
+            astroapi-ruby-*.gem

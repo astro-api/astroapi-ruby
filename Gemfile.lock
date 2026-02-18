@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    astroapi (1.0.0)
+    astroapi-ruby (1.0.0)
       faraday (~> 2.0)
       faraday-retry (~> 2.0)
 
@@ -95,7 +95,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  astroapi!
+  astroapi-ruby!
   pry (~> 0.14)
   rake (~> 13.0)
   rspec (~> 3.12)

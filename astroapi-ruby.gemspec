@@ -3,7 +3,7 @@
 require_relative 'lib/astroapi/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'astroapi'
+  spec.name = 'astroapi-ruby'
   spec.version = Astroapi::VERSION
   spec.authors = ['Astrology API']
   spec.email = ['support@astrology-api.io']
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/astro-api/astroapi-ruby/issues',
     'changelog_uri' => 'https://github.com/astro-api/astroapi-ruby/blob/main/CHANGELOG.md',
-    'documentation_uri' => 'https://www.rubydoc.info/gems/astroapi',
+    'documentation_uri' => 'https://www.rubydoc.info/gems/astroapi-ruby',
     'homepage_uri' => spec.homepage,
     'source_code_uri' => 'https://github.com/astro-api/astroapi-ruby',
     'rubygems_mfa_required' => 'true'
